@@ -1,4 +1,8 @@
 class StructureWithoutList:
+    """
+    Class implements doubly linked list to allow add, get and delete items without usage any build-in collection.
+    Values are kept in Item class that keeps value and links to previous and next items.
+    """
 
     def __init__(self):
         self._reset()
